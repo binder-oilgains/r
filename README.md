@@ -1,10 +1,16 @@
-# Specifying an R environment with a runtime.txt file
+# Specifying an R environment with a `runtime.txt` file
 
 Jupyter+R: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-oilgains/r/main?filepath=index.ipynb)
 
 RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-oilgains/r/main?urlpath=rstudio)
 
 RShiny: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-oilgains/r/main?urlpath=shiny/bus-dashboard/)
+
+
+
+**Goal is to build a Binder server with Jupyter, RShiny and RStudio.** There is a complete Shiny application under `bus-dashboard`
+
+
 
 Binder supports using R and RStudio, with libraries pinned to a specific 
 snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
